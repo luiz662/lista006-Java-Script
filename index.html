@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolução de Exercícios - Arrays e Lógica</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #8a2be2; }
+        .exercicios { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 20px; }
+        button { padding: 10px; border: none; border-radius: 5px; cursor: pointer; background-color: #8a2be2; color: white; transition: background-color 0.3s; }
+        button:hover { background-color: #6a0dad; }
+        #output_arrays { border: 1px solid #ccc; padding: 15px; min-height: 50px; background-color: #f3e6ff; white-space: pre-wrap; margin-top: 20px;}
+        .titulo-output { font-weight: bold; margin-bottom: 10px; color: #6a0dad; }
+    </style>
+</head>
+<body>
+    <h1>📋 Exercícios de JavaScript (Arrays e Lógica)</h1>
+
+    <div class="exercicios">
+        <button onclick="executarExercicioArrays(1)">1) 5 Números Inverso</button>
+        <button onclick="executarExercicioArrays(2)">2) Soma 10 Números</button>
+        <button onclick="executarExercicioArrays(3)">3) Média 7 Números</button>
+        <button onclick="executarExercicioArrays(4)">4) Contar Pares (5 N)</button>
+        <button onclick="executarExercicioArrays(5)">5) Maior/Menor (5 N)</button>
+        <button onclick="executarExercicioArrays(6)">6) 10 Números Crescente</button>
+        <button onclick="executarExercicioArrays(7)">7) Contar Positivos (10 N)</button>
+        <button onclick="executarExercicioArrays(8)">8) Média Par/Ímpar (5 N)</button>
+        <button onclick="executarExercicioArrays(9)">9) Contar Pos/Neg (10 N)</button>
+        <button onclick="executarExercicioArrays(10)">10) Verificar Zero (5 N)</button>
+        <button onclick="executarExercicioArrays(11)">11) Soma Pos/Neg (10 N)</button>
+        <button onclick="executarExercicioArrays(12)">12) 5 Números Decrescente</button>
+        <button onclick="executarExercicioArrays(13)">13) Intervalo 10 a 50 (10 N)</button>
+        <button onclick="executarExercicioArrays(14)">14) Apenas Pares (7 N)</button>
+        <button onclick="executarExercicioArrays(15)">15) 5 Nomes Alfabética</button>
+    </div>
+
+    <hr>
+
+    <div class="titulo-output">Resultado do Exercício:</div>
+    <div id="output_arrays">Clique em um botão para ver o resultado aqui.</div>
+
+    <script src="script_arrays.js"></script>
+</body>
+</html>
